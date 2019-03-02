@@ -13,7 +13,7 @@ public enum Formats {
     public static Formats getFormat(String word){
         word = word.trim().toUpperCase();
         for (Formats format: Formats.values()) {
-            if(format.equals(word)){
+            if(format.toString().equals(word)){
                 return  format;
             }
         }
