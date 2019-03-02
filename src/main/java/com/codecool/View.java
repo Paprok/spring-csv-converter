@@ -1,4 +1,4 @@
-package com.codecool.view;
+package com.codecool;
 
 public interface View {
     void noInputFileMsg();
