@@ -14,6 +14,4 @@ public class JsonTermFormatter implements OutputFormatter {
         formatted.append("]}");
         return formatted.toString();
     }
-
-
 }
