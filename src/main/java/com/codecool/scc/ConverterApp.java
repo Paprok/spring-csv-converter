@@ -1,8 +1,13 @@
-package com.codecool;
+package com.codecool.app;
 
+
+import com.codecool.app.formats.FormatNotFoundException;
+import com.codecool.app.formats.Formats;
+import com.codecool.app.readers.FileLoader;
+import com.codecool.app.view.View;
+import com.codecool.app.view.ViewTerm;
 
 import java.io.FileNotFoundException;
-import java.io.FileReader;
 
 public class ConverterApp {
     public static void main(String[] args) {

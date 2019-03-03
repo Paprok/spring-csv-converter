@@ -1,4 +1,4 @@
-package com.codecool;
+package com.codecool.app.formats;
 
 public enum Formats {
     JSON,
