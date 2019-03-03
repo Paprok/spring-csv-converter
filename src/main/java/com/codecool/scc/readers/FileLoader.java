@@ -1,4 +1,4 @@
-package com.codecool.app.readers;
+package com.codecool.scc.readers;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

@@ -1,7 +1,7 @@
-package com.codecool.app;
+package com.codecool.scc;
 
-import com.codecool.app.formats.Formats;
-import com.codecool.app.readers.FileLoader;
+import com.codecool.scc.formats.Formats;
+import com.codecool.scc.readers.FileLoader;
 
 public class SimpleCsvConverter {
 

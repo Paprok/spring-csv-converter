@@ -1,11 +1,11 @@
-package com.codecool.app;
+package com.codecool.scc;
 
 
-import com.codecool.app.formats.FormatNotFoundException;
-import com.codecool.app.formats.Formats;
-import com.codecool.app.readers.FileLoader;
-import com.codecool.app.view.View;
-import com.codecool.app.view.ViewTerm;
+import com.codecool.scc.formats.FormatNotFoundException;
+import com.codecool.scc.formats.Formats;
+import com.codecool.scc.readers.FileLoader;
+import com.codecool.scc.view.View;
+import com.codecool.scc.view.ViewTerm;
 
 import java.io.FileNotFoundException;
 

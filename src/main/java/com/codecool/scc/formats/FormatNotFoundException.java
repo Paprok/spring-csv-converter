@@ -1,4 +1,4 @@
-package com.codecool.app.formats;
+package com.codecool.scc.formats;
 
 public class FormatNotFoundException extends RuntimeException {
 

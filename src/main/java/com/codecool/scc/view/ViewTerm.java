@@ -1,4 +1,4 @@
-package com.codecool.app.view;
+package com.codecool.scc.view;
 
 public class ViewTerm implements View {
     @Override
