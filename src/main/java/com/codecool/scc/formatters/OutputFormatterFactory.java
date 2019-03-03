@@ -8,13 +8,10 @@ public class OutputFormatterFactory {
         switch (format) {
             case XML:
                 return new XmlTermFormatter();
-            break;
             case JSON:
                 return new JsonTermFormatter();
-            break;
             case TABLE:
                 return new TableTermFormatter();
-            break;
             default:
                 throw new FormatNotFoundException();
         }
