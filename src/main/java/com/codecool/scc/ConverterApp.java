@@ -1,8 +1,8 @@
 package com.codecool.scc;
 
 
-import com.codecool.scc.formats.FormatNotFoundException;
-import com.codecool.scc.formats.Formats;
+import com.codecool.scc.formatters.formats.FormatNotFoundException;
+import com.codecool.scc.formatters.formats.Formats;
 import com.codecool.scc.readers.FileLoader;
 import com.codecool.scc.view.View;
 import com.codecool.scc.view.ViewTerm;
