@@ -6,6 +6,10 @@ public class TableTermFormatter implements OutputFormatter {
 
     @Override
     public String format(List<String> list) {
-        return "totally table";
+        StringBuilder formatted = new StringBuilder("|");
+        for(String word : list){
+            formatted.append(String.format(" %s |", word));
+        }
+        return formatted.toString();
     }
 }
