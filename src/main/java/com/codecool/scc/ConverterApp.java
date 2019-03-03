@@ -1,6 +1,7 @@
 package com.codecool.scc;
 
 
+import com.codecool.scc.formatters.OutputFormatterFactory;
 import com.codecool.scc.formatters.formats.FormatNotFoundException;
 import com.codecool.scc.formatters.formats.Formats;
 import com.codecool.scc.readers.FileLoader;
@@ -15,16 +16,17 @@ public class ConverterApp {
         Formats format;
         FileLoader loader = new FileLoader();
         SimpleCsvConverter converter = new SimpleCsvConverter();
+        OutputFormatterFactory factory = new OutputFormatterFactory();
         try {
             if (args.length < 1) {
                 view.noInputFileMsg();
             } else if (args.length == 1) {
                 loader.loadFile(args[0]);
-                converter.converter(loader);
+                converter.converter(loader,factory);
             } else {
                 format = Formats.getFormat(args[0]);
                 loader.loadFile(args[1]);
-                converter.converter(loader, format);
+                converter.converter(loader, format, factory);
             }
         } catch (FormatNotFoundException e) {
             view.wrongFormatMsg();
