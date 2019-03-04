@@ -12,7 +12,7 @@ import java.util.List;
 public class FileLoader {
     private FileReader reader;
 
-    public void loadFile(String fileName) throws FileNotFoundException {
+    public void setFile(String fileName) throws FileNotFoundException {
         ClassLoader classLoader = getClass().getClassLoader();
         URL url = classLoader.getResource(fileName);
         try {
